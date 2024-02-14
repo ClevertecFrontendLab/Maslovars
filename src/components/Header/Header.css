@@ -1,0 +1,59 @@
+.ant-layout-header.header {
+    background: var(--primary-light-1);
+    height: auto;
+    padding: 16px 24px;
+    position: relative;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 8px;
+}
+
+.breadcrump ol {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--character-light-title-85);
+}
+
+.ant-typography.header__title {
+    margin: 0;
+}
+
+.ant-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.ant-btn:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 834px) {
+    .header__title {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .anticon.anticon-setting {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .header__container {
+        row-gap: 10px;
+    }
+
+    .header__title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .anticon.anticon-setting {
+        display: block;
+    }
+}

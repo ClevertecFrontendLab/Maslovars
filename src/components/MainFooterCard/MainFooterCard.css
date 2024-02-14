@@ -1,0 +1,47 @@
+.download {
+    border-radius: 2px;
+    width: 240px;
+    background: var(--character-light-sider-background);
+}
+
+.download__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: left;
+    padding: 12px 24px;
+}
+
+.download .divider {
+    margin: 0;
+}
+
+.download__btns {
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.download__btns .ant-btn {
+    border: none;
+}
+
+.download__title {
+    color: var(--primary-light-6);
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+}
+
+.download__subtitle {
+    color: var(--character-light-secondary-45);
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+}
+
+.btn-download {
+    border: none;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}

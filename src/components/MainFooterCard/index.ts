@@ -1,0 +1,1 @@
+export { MainFooterCard } from './MainFooterCard';

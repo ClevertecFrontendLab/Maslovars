@@ -1,0 +1,131 @@
+.sider {
+    padding-top: 30px;
+    letter-spacing: 0.2px;
+    background: var(--character-light-primary-inverse);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    height: 100vh;
+}
+
+.sider .ant-layout-sider-children {
+    height: 80vh;
+}
+
+.ant-layout .ant-layout-sider {
+    background: var(--character-light-sider-background);
+    border: none;
+}
+
+.sider__logo {
+    padding-bottom: 5px;
+    text-align: center;
+    background: var(--character-light-sider-background);
+}
+
+.sider__logo_large {
+    padding-right: 17px;
+    padding-top: 14px;
+    margin-bottom: 56px;
+}
+
+.sider__logo_small {
+    margin-bottom: 60px;
+    padding-top: 16px;
+}
+
+.sider__menu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+ul.ant-menu-inline .ant-menu-item:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+ul.ant-menu-vertical .ant-menu-item:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+ul.ant-menu-inline .ant-menu-item:last-child {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li.ant-menu-item:last-child {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.icon_exit {
+    transform: rotate(180deg);
+}
+
+.icon_exit__padding {
+    transform: rotate(180deg);
+    padding-left: 15px;
+    padding-right: 16px;
+}
+
+.sider__menu .divider {
+    margin: 0;
+}
+
+.sider__menu :last-child {
+    margin-top: auto;
+}
+
+.aside ul.ant-menu-vertical,
+.aside ul.ant-menu-inline {
+    border-right: none;
+}
+
+.cleverFitSmall {
+    padding-bottom: 23px;
+    text-align: center;
+    display: none;
+}
+
+span.ant-layout-sider-zero-width-trigger {
+    background: #fff;
+    width: 32px;
+    height: 48px;
+    right: -30px;
+    top: 24px;
+    padding-left: 8px;
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+}
+
+@media (max-width: 760px) {
+    .sider__logo_large {
+        display: none;
+    }
+
+    .sider__logo_small {
+        display: none;
+    }
+
+    .cleverFitSmall {
+        display: flex;
+    }
+
+    .sider {
+        padding-top: 16px;
+    }
+
+    .sider__logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    span.ant-menu-item-icon {
+        display: none;
+    }
+
+    ul.ant-menu-inline .ant-menu-item:not(:last-child) {
+        margin-bottom: 6px;
+    }
+
+    ul.ant-menu-vertical .ant-menu-item:not(:last-child) {
+        margin-bottom: 6px;
+    }
+}
