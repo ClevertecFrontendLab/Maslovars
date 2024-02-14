@@ -1,0 +1,25 @@
+span svg path {
+    fill: var(--primary-light-6);
+}
+
+.ant-card-head-wrapper {
+    padding: 0 8px;
+}
+
+.ant-card-head-title {
+    white-space: pre-wrap;
+    text-align: center;
+    font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+    .ant-card-head-title {
+        text-align: left;
+    }
+}
+
+@media (max-width: 760px) {
+    .ant-card-head-title {
+        text-align: center;
+    }
+}
